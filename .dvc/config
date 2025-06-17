@@ -1,0 +1,4 @@
+[core]
+    remote = dvc-repo
+['remote "dvc-repo"']
+    url = /home/hill/KAIM/projects/week-3/dvc-repo
