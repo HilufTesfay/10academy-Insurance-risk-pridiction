@@ -1,4 +1,71 @@
-2025-06-17 19:38:11,929 - INFO - data loading
-2025-06-17 19:38:31,342 - INFO - data loaded successfully
-2025-06-17 19:38:36,198 - INFO - Cleaning data: handling missing values only
-2025-06-17 19:38:39,318 - INFO - data saved
+2025-06-17 20:44:09,656 - INFO - data loading
+2025-06-17 20:44:27,410 - INFO - data loaded successfully
+2025-06-17 20:44:31,348 - INFO - Cleaning data: handling missing values only
+2025-06-17 20:44:33,342 - INFO - Data cleaned by dropping rows with any missing values.
+2025-06-17 20:44:33,342 - INFO - Starting comprehensive EDA
+2025-06-17 20:44:42,104 - INFO - Generating univariate plots (histograms for numerical, bar plots for categorical)
+2025-06-17 20:44:49,120 - INFO - Plot 'UnderwrittenCoverID_distribution' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/UnderwrittenCoverID_distribution.png
+2025-06-17 20:44:55,704 - INFO - Plot 'PolicyID_distribution' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/PolicyID_distribution.png
+2025-06-17 20:45:02,005 - INFO - Plot 'PostalCode_distribution' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/PostalCode_distribution.png
+2025-06-17 20:45:11,053 - INFO - Plot 'mmcode_distribution' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/mmcode_distribution.png
+2025-06-17 20:45:17,997 - INFO - Plot 'RegistrationYear_distribution' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/RegistrationYear_distribution.png
+2025-06-17 20:45:27,689 - INFO - Plot 'Cylinders_distribution' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/Cylinders_distribution.png
+2025-06-17 20:45:36,182 - INFO - Plot 'cubiccapacity_distribution' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/cubiccapacity_distribution.png
+2025-06-17 20:45:43,328 - INFO - Plot 'kilowatts_distribution' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/kilowatts_distribution.png
+2025-06-17 20:45:52,632 - INFO - Plot 'NumberOfDoors_distribution' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/NumberOfDoors_distribution.png
+2025-06-17 20:45:55,173 - INFO - Plot 'CustomValueEstimate_distribution' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/CustomValueEstimate_distribution.png
+2025-06-17 20:45:55,310 - INFO - Plot 'NumberOfVehiclesInFleet_distribution' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/NumberOfVehiclesInFleet_distribution.png
+2025-06-17 20:46:04,758 - INFO - Plot 'SumInsured_distribution' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/SumInsured_distribution.png
+2025-06-17 20:46:13,938 - INFO - Plot 'CalculatedPremiumPerTerm_distribution' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/CalculatedPremiumPerTerm_distribution.png
+2025-06-17 20:46:23,500 - INFO - Plot 'TotalPremium_distribution' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/TotalPremium_distribution.png
+2025-06-17 20:46:32,622 - INFO - Plot 'TotalClaims_distribution' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/TotalClaims_distribution.png
+2025-06-17 20:46:33,465 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-17 20:46:33,925 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-17 20:46:34,496 - INFO - Plot 'TransactionMonth_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/TransactionMonth_distribution_bar.png
+2025-06-17 20:46:36,238 - INFO - Plot 'Citizenship_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/Citizenship_distribution_bar.png
+2025-06-17 20:46:37,981 - INFO - Plot 'LegalType_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/LegalType_distribution_bar.png
+2025-06-17 20:46:39,672 - INFO - Plot 'Title_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/Title_distribution_bar.png
+2025-06-17 20:46:41,477 - INFO - Plot 'Language_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/Language_distribution_bar.png
+2025-06-17 20:46:43,405 - INFO - Plot 'Bank_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/Bank_distribution_bar.png
+2025-06-17 20:46:45,687 - INFO - Plot 'AccountType_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/AccountType_distribution_bar.png
+2025-06-17 20:46:47,629 - INFO - Plot 'MaritalStatus_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/MaritalStatus_distribution_bar.png
+2025-06-17 20:46:49,613 - INFO - Plot 'Gender_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/Gender_distribution_bar.png
+2025-06-17 20:46:51,485 - INFO - Plot 'Country_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/Country_distribution_bar.png
+2025-06-17 20:46:53,741 - INFO - Plot 'Province_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/Province_distribution_bar.png
+2025-06-17 20:46:56,995 - INFO - Plot 'MainCrestaZone_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/MainCrestaZone_distribution_bar.png
+2025-06-17 20:46:59,179 - INFO - Plot 'SubCrestaZone_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/SubCrestaZone_distribution_bar.png
+2025-06-17 20:47:01,205 - INFO - Plot 'ItemType_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/ItemType_distribution_bar.png
+2025-06-17 20:47:03,270 - INFO - Plot 'VehicleType_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/VehicleType_distribution_bar.png
+2025-06-17 20:47:05,677 - INFO - Plot 'make_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/make_distribution_bar.png
+2025-06-17 20:47:05,757 - INFO - Skipping bar plot for Model due to high cardinality (411 unique values).
+2025-06-17 20:47:07,640 - INFO - Plot 'bodytype_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/bodytype_distribution_bar.png
+2025-06-17 20:47:07,704 - INFO - Skipping bar plot for VehicleIntroDate due to high cardinality (174 unique values).
+2025-06-17 20:47:09,456 - INFO - Plot 'AlarmImmobiliser_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/AlarmImmobiliser_distribution_bar.png
+2025-06-17 20:47:11,352 - INFO - Plot 'TrackingDevice_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/TrackingDevice_distribution_bar.png
+2025-06-17 20:47:11,405 - INFO - Skipping bar plot for CapitalOutstanding due to high cardinality (659 unique values).
+2025-06-17 20:47:13,215 - INFO - Plot 'NewVehicle_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/NewVehicle_distribution_bar.png
+2025-06-17 20:47:14,047 - INFO - Plot 'WrittenOff_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/WrittenOff_distribution_bar.png
+2025-06-17 20:47:14,853 - INFO - Plot 'Rebuilt_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/Rebuilt_distribution_bar.png
+2025-06-17 20:47:15,836 - INFO - Plot 'Converted_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/Converted_distribution_bar.png
+2025-06-17 20:47:16,073 - INFO - Plot 'CrossBorder_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/CrossBorder_distribution_bar.png
+2025-06-17 20:47:17,838 - INFO - Plot 'TermFrequency_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/TermFrequency_distribution_bar.png
+2025-06-17 20:47:19,671 - INFO - Plot 'ExcessSelected_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/ExcessSelected_distribution_bar.png
+2025-06-17 20:47:21,722 - INFO - Plot 'CoverCategory_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/CoverCategory_distribution_bar.png
+2025-06-17 20:47:23,929 - INFO - Plot 'CoverType_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/CoverType_distribution_bar.png
+2025-06-17 20:47:26,539 - INFO - Plot 'CoverGroup_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/CoverGroup_distribution_bar.png
+2025-06-17 20:47:28,588 - INFO - Plot 'Section_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/Section_distribution_bar.png
+2025-06-17 20:47:30,451 - INFO - Plot 'Product_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/Product_distribution_bar.png
+2025-06-17 20:47:32,321 - INFO - Plot 'StatutoryClass_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/StatutoryClass_distribution_bar.png
+2025-06-17 20:47:34,239 - INFO - Plot 'StatutoryRiskType_distribution_bar' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/StatutoryRiskType_distribution_bar.png
+2025-06-17 20:47:34,240 - INFO - Performing bivariate/multivariate analysis for key insights
+2025-06-17 20:47:34,636 - INFO - Converted 'TransactionMonth' to datetime and created 'YearMonth' for temporal analysis.
+2025-06-17 20:47:34,640 - INFO - Calculated 'LossRatio'.
+2025-06-17 20:47:34,963 - INFO - Plot 'LossRatio_by_Province' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/LossRatio_by_Province.png
+2025-06-17 20:47:35,263 - INFO - Plot 'LossRatio_by_VehicleType' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/LossRatio_by_VehicleType.png
+2025-06-17 20:47:35,501 - INFO - Plot 'LossRatio_by_Gender' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/LossRatio_by_Gender.png
+2025-06-17 20:47:35,501 - INFO - Generating box plots for outlier detection in financial columns.
+2025-06-17 20:47:37,853 - INFO - Plot 'TotalPremium_boxplot_outliers' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/TotalPremium_boxplot_outliers.png
+2025-06-17 20:47:39,975 - INFO - Plot 'TotalClaims_boxplot_outliers' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/TotalClaims_boxplot_outliers.png
+2025-06-17 20:47:40,594 - INFO - Plot 'CustomValueEstimate_boxplot_outliers' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/CustomValueEstimate_boxplot_outliers.png
+2025-06-17 20:47:43,348 - INFO - Plot 'CalculatedPremiumPerTerm_boxplot_outliers' saved to /home/hill/KAIM/projects/week-3/src/data/../../outputs/plots/CalculatedPremiumPerTerm_boxplot_outliers.png
+2025-06-17 20:47:43,348 - INFO - Analyzing temporal trends in claim frequency and severity.
